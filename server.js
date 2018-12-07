@@ -16,5 +16,6 @@ app.get('/', function (req, res) {
 });
 
 app.listen(port, function(){
+  console.log("Your server running on");
   console.log('http://localhost:8080');
 });
